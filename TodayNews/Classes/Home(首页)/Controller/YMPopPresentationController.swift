@@ -14,7 +14,7 @@ class YMPopPresentationController: UIPresentationController {
     /// 定义弹出视图的大小
     var presentFrame = CGRectZero
     
-    override init(presentedViewController: UIViewController, presentingViewController: UIViewController) {
+     override init(presentedViewController: UIViewController, presentingViewController: UIViewController?) {
         super.init(presentedViewController: presentedViewController, presentingViewController: presentingViewController)
 //        print(presentedViewController)
         /// presentingViewController 会报一个野指针的错误，这是 Xcode 的 bug。

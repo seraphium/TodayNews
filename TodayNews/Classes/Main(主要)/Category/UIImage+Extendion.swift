@@ -19,17 +19,17 @@ extension UIImage {
         let ctx = UIGraphicsGetCurrentContext()
         // 添加一个圆
         let rect = CGRectMake(0, 0, size.width, size.height)
-        CGContextAddEllipseInRect(ctx, rect)
+        CGContextAddEllipseInRect(ctx!, rect)
         
         // 裁剪
-        CGContextClip(ctx)
+        CGContextClip(ctx!)
         // 将图片画上去
         drawInRect(rect)
         let image = UIGraphicsGetImageFromCurrentImageContext()
         // 关闭上下文
         UIGraphicsEndImageContext()
         
-        return image
+        return image!
     }
 }
 

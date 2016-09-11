@@ -17,7 +17,7 @@ class YMSettingHeaderView: UIView {
     weak var delegate: YMSettingHeaderViewDelegate?
     
     class func settingHeaderView() -> YMSettingHeaderView {
-        return NSBundle.mainBundle().loadNibNamed(String(self), owner: nil, options: nil).last as! YMSettingHeaderView
+        return NSBundle.mainBundle().loadNibNamed(String(self), owner: nil, options: nil)!.last as! YMSettingHeaderView
     }
     
     @IBOutlet weak var accountManageButton: UIButton!

@@ -66,7 +66,7 @@ class YMHomeDetailController: UIViewController {
     }()
     
     private lazy var bottomView: YMHomeDetailBottomView = {
-        let bottomView = NSBundle.mainBundle().loadNibNamed(String(YMHomeDetailBottomView), owner: nil, options: nil).last as! YMHomeDetailBottomView
+        let bottomView = NSBundle.mainBundle().loadNibNamed(String(YMHomeDetailBottomView), owner: nil, options: nil)!.last as! YMHomeDetailBottomView
         return bottomView
     }()
     
