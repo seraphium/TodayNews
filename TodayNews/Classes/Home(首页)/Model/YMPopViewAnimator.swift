@@ -22,8 +22,8 @@ class YMPopViewAnimator: NSObject, UIViewControllerTransitioningDelegate, UIView
      - parameter presenting: 展现的视图
      - returns: YMPopPresentationController iOS 8 以后推出的专门负责转场动画的控制器
      */
-    func presentationControllerForPresentedViewController(presented: UIViewController, presentingViewController presenting: UIViewController, sourceViewController source: UIViewController) -> UIPresentationController? {
-        let popPC = YMPopPresentationController(presentedViewController: presented, presentingViewController: presenting)
+    func presentationControllerForPresentedViewController(presented: UIViewController, presentingViewController presenting: UIViewController?, sourceViewController source: UIViewController) -> UIPresentationController? {
+        let popPC = YMPopPresentationController(presentedViewController: presented, presentingViewController: presenting!)
         popPC.presentFrame = presentFrame
         return popPC
     }
@@ -61,7 +61,7 @@ class YMPopViewAnimator: NSObject, UIViewControllerTransitioningDelegate, UIView
             // 展开
             let toView = transitionContext.viewForKey(UITransitionContextToViewKey)
             // 一定要将视图添加到容器上
-            transitionContext.containerView()?.addSubview(toView!)
+            transitionContext.containerView().addSubview(toView!)
             // 锚点
             toView?.layer.anchorPoint = CGPoint(x: 1.0, y: 0.0)
             toView?.transform = CGAffineTransformMakeScale(0.0, 0.0)

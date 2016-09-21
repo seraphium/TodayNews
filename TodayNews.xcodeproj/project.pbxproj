@@ -11,7 +11,6 @@
 		252764311D4F50FB0078C143 /* YMSettingHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 252764301D4F50FB0078C143 /* YMSettingHeaderView.xib */; };
 		256D00EC1D51AE67007D40CF /* YMAddTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D00EB1D51AE67007D40CF /* YMAddTopicViewController.swift */; };
 		256D00EE1D51B5E3007D40CF /* YMHomeTopTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D00ED1D51B5E3007D40CF /* YMHomeTopTitle.swift */; };
-		827E87E6C347D72EEA480634 /* Pods_TodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4486ED8A9D71B92D386525D6 /* Pods_TodayNews.framework */; };
 		940375991D4F9BCB00C7B135 /* YMVideoTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940375981D4F9BCB00C7B135 /* YMVideoTitleView.swift */; };
 		9403759B1D4F9FE000C7B135 /* YMVideoSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403759A1D4F9FE000C7B135 /* YMVideoSearchController.swift */; };
 		940375AB1D50EC4B00C7B135 /* YMVideoTopTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940375AA1D50EC4B00C7B135 /* YMVideoTopTitle.swift */; };
@@ -117,6 +116,7 @@
 		94DD98A31D5401CB00331B6B /* YMVideoTopicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD98A21D5401CB00331B6B /* YMVideoTopicController.swift */; };
 		94DD98AA1D5402A900331B6B /* YMVideoTopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD98A81D5402A900331B6B /* YMVideoTopicCell.swift */; };
 		94DD98AB1D5402A900331B6B /* YMVideoTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DD98A91D5402A900331B6B /* YMVideoTopicCell.xib */; };
+		C85726D2A6556B2529B30F0E /* Pods_TodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231439EA1CC98479CF5CF68D /* Pods_TodayNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,12 +137,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14DB40818E01E6EB10374E82 /* Pods-TodayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayNews/Pods-TodayNews.release.xcconfig"; sourceTree = "<group>"; };
+		194848516EB6F719E7B65938 /* Pods-TodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayNews/Pods-TodayNews.debug.xcconfig"; sourceTree = "<group>"; };
+		231439EA1CC98479CF5CF68D /* Pods_TodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2527642E1D4F50F10078C143 /* YMSettingHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSettingHeaderView.swift; sourceTree = "<group>"; };
 		252764301D4F50FB0078C143 /* YMSettingHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMSettingHeaderView.xib; sourceTree = "<group>"; };
 		256D00EB1D51AE67007D40CF /* YMAddTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMAddTopicViewController.swift; sourceTree = "<group>"; };
 		256D00ED1D51B5E3007D40CF /* YMHomeTopTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YMHomeTopTitle.swift; path = "TodayNews/Classes/Home(首页)/Controller/YMHomeTopTitle.swift"; sourceTree = SOURCE_ROOT; };
-		4486ED8A9D71B92D386525D6 /* Pods_TodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		940375981D4F9BCB00C7B135 /* YMVideoTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMVideoTitleView.swift; sourceTree = "<group>"; };
 		9403759A1D4F9FE000C7B135 /* YMVideoSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMVideoSearchController.swift; sourceTree = "<group>"; };
 		940375AA1D50EC4B00C7B135 /* YMVideoTopTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMVideoTopTitle.swift; sourceTree = "<group>"; };
@@ -254,7 +254,7 @@
 		94DD98A21D5401CB00331B6B /* YMVideoTopicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMVideoTopicController.swift; sourceTree = "<group>"; };
 		94DD98A81D5402A900331B6B /* YMVideoTopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMVideoTopicCell.swift; sourceTree = "<group>"; };
 		94DD98A91D5402A900331B6B /* YMVideoTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMVideoTopicCell.xib; sourceTree = "<group>"; };
-		FC9B11AC2D7AFCE523D16496 /* Pods-TodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayNews/Pods-TodayNews.debug.xcconfig"; sourceTree = "<group>"; };
+		DE1181CC2F89346273BC96F6 /* Pods-TodayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayNews/Pods-TodayNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,7 +262,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				827E87E6C347D72EEA480634 /* Pods_TodayNews.framework in Frameworks */,
+				C85726D2A6556B2529B30F0E /* Pods_TodayNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,19 +283,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		585A25A5DE5288CE04F805E4 /* Pods */ = {
+		117F90B410B571EF5404A222 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC9B11AC2D7AFCE523D16496 /* Pods-TodayNews.debug.xcconfig */,
-				14DB40818E01E6EB10374E82 /* Pods-TodayNews.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		733BAAA662C622C201411266 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4486ED8A9D71B92D386525D6 /* Pods_TodayNews.framework */,
+				231439EA1CC98479CF5CF68D /* Pods_TodayNews.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -356,8 +347,8 @@
 				947564831D4B86FE00AC6B72 /* TodayNewsTests */,
 				9475648E1D4B86FE00AC6B72 /* TodayNewsUITests */,
 				9475646D1D4B86FE00AC6B72 /* Products */,
-				585A25A5DE5288CE04F805E4 /* Pods */,
-				733BAAA662C622C201411266 /* Frameworks */,
+				D94BED9832AFD1D18C272C9B /* Pods */,
+				117F90B410B571EF5404A222 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -647,6 +638,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		D94BED9832AFD1D18C272C9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				194848516EB6F719E7B65938 /* Pods-TodayNews.debug.xcconfig */,
+				DE1181CC2F89346273BC96F6 /* Pods-TodayNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -660,7 +660,6 @@
 				9475646A1D4B86FE00AC6B72 /* Resources */,
 				B8824F32DBF52FD05D7FB17B /* [CP] Embed Pods Frameworks */,
 				D742B3A08405C3BFDD831843 /* [CP] Copy Pods Resources */,
-				E68540B3D748F379981CAAEF /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -715,18 +714,21 @@
 			attributes = {
 				CLASSPREFIX = YM;
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = hrscy;
 				TargetAttributes = {
 					9475646B1D4B86FE00AC6B72 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					9475647F1D4B86FE00AC6B72 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9475646B1D4B86FE00AC6B72;
 					};
 					9475648A1D4B86FE00AC6B72 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9475646B1D4B86FE00AC6B72;
 					};
 				};
@@ -843,21 +845,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayNews/Pods-TodayNews-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E68540B3D748F379981CAAEF /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayNews/Pods-TodayNews-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1011,8 +998,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1039,6 +1028,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -1056,8 +1046,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1076,35 +1068,41 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		947564951D4B86FE00AC6B72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC9B11AC2D7AFCE523D16496 /* Pods-TodayNews.debug.xcconfig */;
+			baseConfigurationReference = 194848516EB6F719E7B65938 /* Pods-TodayNews.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TodayNews/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.TodayNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		947564961D4B86FE00AC6B72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14DB40818E01E6EB10374E82 /* Pods-TodayNews.release.xcconfig */;
+			baseConfigurationReference = DE1181CC2F89346273BC96F6 /* Pods-TodayNews.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TodayNews/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.TodayNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -1116,6 +1114,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.TodayNewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodayNews.app/TodayNews";
 			};
 			name = Debug;
@@ -1128,6 +1127,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.TodayNewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodayNews.app/TodayNews";
 			};
 			name = Release;
@@ -1139,6 +1139,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.TodayNewsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = TodayNews;
 			};
 			name = Debug;
@@ -1150,6 +1151,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.TodayNewsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = TodayNews;
 			};
 			name = Release;

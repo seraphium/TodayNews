@@ -99,7 +99,7 @@ class YMPlayerView: UIView {
     /// 底部进度条
     lazy var bottomToolBar: YMProgressView = {
         let bottomToolBar = NSBundle.mainBundle().loadNibNamed(String(YMProgressView), owner: nil
-            , options: nil).last as! YMProgressView
+            , options: nil)!.last as! YMProgressView
         bottomToolBar.hidden = true
         bottomToolBar.delegate = self
         return bottomToolBar
