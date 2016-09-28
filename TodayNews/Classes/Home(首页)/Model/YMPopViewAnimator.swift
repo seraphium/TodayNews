@@ -23,7 +23,7 @@ class YMPopViewAnimator: NSObject, UIViewControllerTransitioningDelegate, UIView
      - returns: YMPopPresentationController iOS 8 以后推出的专门负责转场动画的控制器
      */
     func presentationControllerForPresentedViewController(presented: UIViewController, presentingViewController presenting: UIViewController?, sourceViewController source: UIViewController) -> UIPresentationController? {
-        let popPC = YMPopPresentationController(presentedViewController: presented, presentingViewController: presenting!)
+        let popPC = YMPopPresentationController(presentedViewController: presented, presentingViewController: presenting)
         popPC.presentFrame = presentFrame
         return popPC
     }
